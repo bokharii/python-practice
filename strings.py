@@ -37,5 +37,11 @@ concatenation = 'Hello {}! {}'.format(name, message)
 # print('concatenated string: ', concatenation)
 
 # new method using f strings
-new_concatenation = f'Using f-strings. Hello {name}! {message}'
+new_concatenation = f'Using f-strings. Hello {name.upper()}! {message}'
 print(new_concatenation)
+
+# dir() function returns the list of valid attributes/methods for a specified object
+print(dir(name))
+
+# help gives us info on those methods
+# (print(help(str)))
