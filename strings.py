@@ -26,3 +26,16 @@ new_message = message.replace(
     "World", "Universe"
 )  # needs to be saved to a new variable since the replacement does not happen in-place
 print(new_message)
+
+
+# string concatenation
+name = "Saaquib"
+# print(message + ' ' + name)
+
+# with placeholders
+concatenation = 'Hello {}! {}'.format(name, message)
+# print('concatenated string: ', concatenation)
+
+# new method using f strings
+new_concatenation = f'Using f-strings. Hello {name}! {message}'
+print(new_concatenation)
