@@ -34,5 +34,14 @@ print(popped)
 courses.reverse() # reverses the list
 print(courses)
 
-courses.sort() # sorts the list (alphabetical if strings, ascending if numbers)
-print(courses)
+# courses.sort() # sorts the list (alphabetical if strings, ascending if numbers)
+# print(courses)
+numbers = [21, 25125, 11, 9, 85]
+# numbers.sort()
+numbers.sort(reverse=True) # reverse the order of the sorted list
+print(numbers)
+
+sorted_courses = sorted(courses) # sorted() fn returns a completely different sorted list, does not modify in-place like the .sort method
+print(sorted_courses)
+
+print(sum(numbers)) # sum, min, max functions all work with lists with numbers
