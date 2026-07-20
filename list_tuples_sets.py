@@ -51,3 +51,8 @@ print(sum(numbers)) # sum, min, max functions all work with lists with numbers
 print(courses)
 print(courses.index('history')) # index method finds the index of the item we want in a list
 print('art' in courses) # in allows us to see if a specified value is in the list. returns true/false
+
+## looping values
+for item in courses:
+  print('loop: ' + item)
+
