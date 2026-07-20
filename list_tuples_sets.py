@@ -23,4 +23,13 @@ courses_2 = ['art', 'sports']
 courses.extend(courses_2) # extend allows us to append a list's items to another list without adding that actual list
 print(courses)
 
-## remove items from our list
+## removing items from our list
+courses.remove('math') # remove method removes a specific item
+print(courses)
+
+popped = courses.pop() # pop method removes the last item in the list. popped item can be saved in a variable
+print(popped)
+
+## sorting lists
+courses.reverse() # reverses the list
+print(courses)
