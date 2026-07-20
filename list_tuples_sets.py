@@ -33,3 +33,6 @@ print(popped)
 ## sorting lists
 courses.reverse() # reverses the list
 print(courses)
+
+courses.sort() # sorts the list (alphabetical if strings, ascending if numbers)
+print(courses)
