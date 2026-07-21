@@ -1,3 +1,4 @@
+# https://www.youtube.com/watch?v=W8KRzm-HUcc
 ### lists
 courses = ['history', 'math', 'physics', 'biology']
 print(courses)
