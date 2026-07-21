@@ -63,3 +63,21 @@ print(course_str)
 # to turn our string back into a list...
 course_list = course_str.split(', ')
 print(course_list)
+
+## Tuples
+# lists are mutable, tuples are immutable
+list1 = [231, 23, 1, 76, 9]
+list2 = list1
+# print(list1)
+# print(list2)
+list1[0] = 55 # changes the first element of BOTH list1 and list2 since they are mutable
+print(list1)
+print(list2)
+
+# tuples use parenthesis instead of [] like lists
+tuple_1 = (231, 23, 1, 76, 9)
+tuple_2 = tuple_1
+
+print(tuple_1, tuple_2)
+# tuple_1[0] = 55 # results in TypeError because tuple elements are not mutable. thus a lot of normal list methods are not available to tuples
+# print(tuple_1, tuple_2)
