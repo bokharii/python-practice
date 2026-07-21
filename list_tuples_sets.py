@@ -53,6 +53,13 @@ print(courses.index('history')) # index method finds the index of the item we wa
 print('art' in courses) # in allows us to see if a specified value is in the list. returns true/false
 
 ## looping values
-for item in courses:
-  print('loop: ' + item)
+for index, item in enumerate(courses): #enumerate allows us to get the index of the value in the loop
+  print(index, item)
 
+# to turn our list into a string of comma separated values...
+course_str = ', '.join(courses) # use the join method
+print(course_str)
+
+# to turn our string back into a list...
+course_list = course_str.split(', ')
+print(course_list)
