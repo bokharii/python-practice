@@ -64,6 +64,7 @@ print(course_str)
 course_list = course_str.split(', ')
 print(course_list)
 
+
 ## Tuples
 # lists are mutable, tuples are immutable
 list1 = [231, 23, 1, 76, 9]
@@ -81,3 +82,7 @@ tuple_2 = tuple_1
 print(tuple_1, tuple_2)
 # tuple_1[0] = 55 # results in TypeError because tuple elements are not mutable. thus a lot of normal list methods are not available to tuples
 # print(tuple_1, tuple_2)
+
+
+## Sets
+# contains values that are unordered and have NO duplicates
