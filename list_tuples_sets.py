@@ -87,3 +87,18 @@ print(tuple_1, tuple_2)
 
 ## Sets
 # contains values that are unordered and have NO duplicates
+cs_courses = {'History', "Math", 'Physics', 'CompSci', 'History'} # will only print one of each, does not care about order. sets throw away duplicates
+cs_courses_2 = {'History', "Math", 'Physics', 'Design', 'Gym'}
+print(cs_courses.intersection(cs_courses_2)) # can use methods such as intersection on sets to see what 2 sets have in common
+print(cs_courses.difference(cs_courses_2))
+print(cs_courses.union(cs_courses_2))
+
+# empty lists, tuples, sets
+empty_list = []
+empty_list = list()
+
+empty_tuple = ()
+empty_tuple = tuple()
+
+empty_set = {} # not correct, this is a dict
+empty_set = set()
