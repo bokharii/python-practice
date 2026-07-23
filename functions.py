@@ -4,8 +4,19 @@
 
 # print(hello_func) # need () to execute the fn
 
-def hello_func():
-  print('Hello Function!')
+# def hello_func():
+#   print('Hello Function!')
 
-hello_func()
 
+# def hello_func():
+#     return "Hello Function!"
+
+
+# yo = hello_func().lower()
+# print(yo)
+
+
+def hello_func(name): # allow for a parameter
+  return f'Hello {name}!'
+
+print(hello_func('Saaquib')) # pass in argument
