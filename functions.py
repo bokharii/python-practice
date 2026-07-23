@@ -16,7 +16,8 @@
 # print(yo)
 
 
-def hello_func(name): # allow for a parameter
+def hello_func(name = 'person'): # allow for a parameter. = allows for a default parameter if none is passed
   return f'Hello {name}!'
 
-print(hello_func('Saaquib')) # pass in argument
+print(hello_func()) # pass in argument
+print(hello_func('Saaquib'))
